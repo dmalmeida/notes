@@ -2,7 +2,7 @@
   String noteID;
   String noteTitle;
   DateTime createDateTime;
-  DateTime lastestEditDateTime;
+  DateTime? lastestEditDateTime;
 
   NoteForListing(
       {required this.noteID,
